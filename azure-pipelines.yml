@@ -1,8 +1,7 @@
  trigger:
  - main
 
- pool:
-   vmImage: 'ubuntu-latest' 
+ pool: self-hosted-1
 
  variables:
    imageName: 'pipelines-javascript-docker'
